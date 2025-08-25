@@ -1,84 +1,136 @@
+
 const products = [
     {
-      name: 'HP Essentials 255 G8 AMD',
-      price: 289,
-      stars: 4,
-      reviews: 250,
-      seller: 'PcComponentes',
-      image: 'https://thumb.pccomponentes.com/w-300-300/articles/1005/10057282/1639-hp-essential-255-g8-amd-3020e-8gb-256gb-ssd-156.jpg'
+        name: 'Culebra, Puerto Rico',
+        price: 1800,
+        stars: 4.8,
+        booked: 129, 
+        seller: 'aichitame Tours',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Entrance_to_Culebra%27s_Ensenada_Honda.jpg'
     },
-{
-    name: 'ASUS TUF Gaming A16 FA506NCR-HN006 AMD Ryzen 7',
-    price: 599,
-    stars: 4.5,
-    reviews: 510,
-    seller: 'PcComponentes',
-    image: 'https://thumb.pccomponentes.com/w-530-530/articles/1084/10848624/1163-asus-tuf-gaming-a15-fa506ncr-hn006-amd-ryzen-7-7435hs-16gb-512gb-ssd-rtx-3050-156.jpg'
+    {
+        name: 'Los Roques, Venezuela',
+        price: 1599,
+        stars: 4.6,
+        booked: 78,
+        seller: 'aichitame Tours',
+        image: 'https://ospreyexpeditions.com/wp-content/uploads/2024/10/Venezuela-Los-Roques-Angel-Falls-Orinoco-Roraima-Caribbean-honeymoon-9.jpg'
     },
-{
-    name: 'XFX SWIFT AMD Radeon RX 6600',
-    price: 599,
-    stars: 4.6,
-    reviews: 119,
-    seller: 'PcComponentes',
-    image: 'https:thumb.pccomponentes.com/w-530-530/articles/1087/10871105/1742-msi-geforce-rtx-5070-ventus-2x-oc-12gb-gddr7-reflex-2-rtx-ai-dlss4.jpg'
-},
-{
-    name: 'PcCom Ready V2 AMD Ryzen 7 5800X / 32GB / 1TB SSD / RTX 5060 Ti 16GB',
-    price: 1199,
-    stars: 4.7,
-    reviews: 1459,
-    seller: 'PcComponentes',
-    image: 'https://thumb.pccomponentes.com/w-530-530/articles/1090/10901274/11-pccom-ready-v2-intel-core-i5-12400f-32gb-1tb-ssd-rtx-5060-windows-11-home.jpg'
-},
-{
-    name: 'AOC Q27G4XF 27" LED Fast IPS QHD 180Hz',
-    price: 170,
-    stars: 4.6,
-    reviews: 6053,
-    seller: 'PcComponentes',
-    image: 'https://thumb.pccomponentes.com/w-530-530/articles/1084/10847588/1298-aoc-q27g4xf-27-led-fast-ips-qhd-180hz.jpg'
-},
-{
+    {
+        name: 'Palma de Mallorca, Spain',
+        price: 249,
+        stars: 4.3,
+        booked: 226,
+        seller: 'aichitame Tours',
+        image: 'https://www.posadaterrasanta.com/wp-content/uploads/2024/02/Post-45-Playa-Posada-Terra-Santa.jpg'
+    },
 
-    name: 'WD Black SN770 2TB Disco SSD 5150MB/S NVMe PCIe 4.0 M.2 Gen4 16GT/s',
-    price: 118.99,
-    stars: 4.5,
-    reviews: 1872,
-    seller: 'PcComponentes',
-    image: 'https://thumb.pccomponentes.com/w-530-530/articles/1006/10060348/1253-wd-black-sn770-2tb-disco-ssd-5150mb-s-nvme-pcie-40-m2-gen4-16gt-s-review.jpg'
-},
-{
-    name: 'Tempest Shake Silla Gaming con Reposapiés y Masaje Gris',
-    price: 117.99,
-    stars: 4.4,
-    reviews: 1150,
-    seller: 'PcComponentes',
-    image: 'https://thumb.pccomponentes.com/w-530-530/articles/1079/10798108/1251-tempest-shake-silla-gaming-con-reposapies-y-masaje-gris.jpg'
-},
-{
-    name: 'Forgeon Captain RGB Auriculares con Micrófono Inalámbricos Gaming Negros',
-    price: 59.99,
-    stars: 4.5,
-    reviews: 465,
-    seller: 'PcComponentes',
-    image: 'https://thumb.pccomponentes.com/w-530-530/articles/1079/10792513/1121-forgeon-captain-rgb-auriculares-con-microfono-inalambricos-gaming-negros.jpg'
-},
-{
-    name: 'Samsung QE50Q60DAUXXH 43" QLED UltraHD 4K Quantum HDR',
-    price: 319,
-    stars: 5,
-    reviews: 345,
-    seller: 'PcComponentes',
-    image: 'https://thumb.pccomponentes.com/w-530-530/articles/1084/10844424/1892-samsung-qe43q60dauxxh-43-qled-ultrahd-4k-quantum-hdr-05a1046c-cbf0-402f-ad47-38a08a5b54e4.jpg'
-},
-{
-    name: 'Xiaomi Redmi Note 14 Pro 4G 8/256GB Morado Aurora Libre',
-    price: 219,
-    stars: 4.6,
-    reviews: 406,
-    seller: 'PcComponentes',
-    image: 'https://thumb.pccomponentes.com/w-530-530/articles/1086/10867250/1480-xiaomi-redmi-note-14-pro-4g-8-256gb-morado-aurora-libre.jpg'
-}
+    {
+        name: 'Santa Marta, Colombia',
+        price: 899,
+        stars: 4.6,
+        booked: 138,
+        seller: 'aichitame Tours',
+        image: 'https://aem-all.accor.com/content/dam/all/hubs/americas/latam/generic-images/all-magazine/buceo-en-santa-marta-2024-1.jpg'
+    },
+    {
+        name: 'Majagual, Nicaragua',
+        price:899,
+        stars: 4.3,
+        booked: 78,
+        seller: 'aichitame Tours',
+        image: 'https://images.squarespace-cdn.com/content/v1/59c96e9abce176caf5324bf5/1550263428954-XOQ8PIQR2YWREHC48T3I/Playa+Majagual+walks.jpg'
+    },
+    {
+        name: 'Bolonia, Spain',
+        price: 159,
+        stars: 4.3,
+        booked: 658,
+        seller: 'aichitame Tours',
+        image: 'https://www.cadizturismo.com/storage/app/media/IMAGENES/PLAYAS/Bolonia/Playa%20de%20Bolonia%20-%20Tarifa.jpg'
+    },
+    {
+        name: 'Vieques, Puerto Rico',
+        price: 1799,
+        stars: 4.5,
+        booked: 178,
+        seller: 'aichitame Tours',
+        image: 'https://cdn.prod.website-files.com/63232a8b70d6f033655c1d90/64387a2ceb8eab5f13a2162e_PR%20plus%20Visiting%20Vieques.jpg'
+    },
+    {
+        name: 'Cayos Cochinos, Honduras',
+        price: 1800,
+        stars: 4.3,
+        booked: 125,
+        seller: 'aichitame Tours',
+        image: 'https://image-tc.galaxy.tf/wijpeg-437zil413ylbfgw8ynwkldj7v/cayos-cochinos-aguas-turquesa_standard.jpg?crop=103%2C0%2C643%2C482',
+    },
+    {
+        name: 'Playa Larga, Cuba',
+        price: 1399,
+        booked: 230,
+        seller: 'aichitame Tours',
+        image:'https://images.myguide-cdn.com/cuba/companies/long-beach/large/long-beach-634717.jpg'
+    },
+    {
+        name: 'Ureka, Guinea Ecuatorial',
+        price: 850,
+        stars: 4.4,
+        booked: 189,
+        seller: 'aichitame Tours',
+        image: 'https://ahoraeg.com/wp-content/uploads/2025/03/Captura-de-pantalla-2025-03-04-005525.png'
+    },
+    {
+        name: 'Los Gigantes, Tenerife, Spain',
+        price: 399,
+        stars: 4.8,
+        booked: 358,
+        seller: 'aichitame Tours',
+        image: 'https://www.barcelo.com/guia-turismo/wp-content/uploads/tenerife-gigantes.jpg'
+    },
+    {
+        name: 'Punta Cana, Dominican Republic',
+        price: 1199,
+        stars: 4.3,
+        booked: 256,
+        seller: 'aichitame Tours',
+        image: 'https://www.viajandoporelmundomundial.com/wp-content/uploads/2022/03/playas-dominicana1.jpg'
+    },
 
-  ];
+]
+
+  // Render de productos
+function renderProducts(list) {
+    const productsContainer = document.getElementById("products");
+    productsContainer.innerHTML = ""; // limpiar antes de renderizar
+  
+    list.forEach(product => {
+      const card = document.createElement("article");
+      card.classList.add("product-card");
+  
+      card.innerHTML = `
+        <img src="${product.image}" alt="${product.name}">
+        <div class="product-info">
+          <h3>${product.name}</h3>
+          <p class="price">${product.price} €</p>
+          <p>⭐ ${product.stars} | ${product.reviews} opiniones</p>
+          <p>Vendido por: ${product.seller}</p>
+        </div>
+      `;
+  
+      productsContainer.appendChild(card);
+    });
+  }
+  
+  // Filtro por búsqueda
+  document.getElementById("search").addEventListener("input", (e) => {
+    const searchTerm = e.target.value.toLowerCase();
+    const filtered = products.filter(p => 
+      p.name.toLowerCase().includes(searchTerm) ||
+      p.seller.toLowerCase().includes(searchTerm)
+    );
+    renderProducts(filtered);
+  });
+  
+  // Inicializar
+  renderProducts(products);

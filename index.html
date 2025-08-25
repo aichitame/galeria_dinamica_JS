@@ -1,12 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Online</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="/main.js"></script>
+  <header>
+    <h1>Tienda Online</h1>
+  </header>
+  <main class="container">
+    <!-- Filtros -->
+    <section id="filters">
+      <h2>Filtros</h2>
+      <label>
+        Buscar: <input type="text" id="search" placeholder="Buscar producto...">
+      </label>
+    </section>
+
+    <!-- Productos -->
+    <section id="products"></section>
+  </main>
+
+  <script src="main.js"></script>
 </body>
 </html>
