@@ -4,7 +4,7 @@ const products = [
         name: 'Culebra, Puerto Rico',
         price: 1800,
         stars: 4.8,
-        booked: 129, 
+        reviews: 129, 
         seller: 'aichitame Tours',
         image: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Entrance_to_Culebra%27s_Ensenada_Honda.jpg'
     },
@@ -12,7 +12,7 @@ const products = [
         name: 'Los Roques, Venezuela',
         price: 1599,
         stars: 4.6,
-        booked: 78,
+        reviews: 78,
         seller: 'aichitame Tours',
         image: 'https://ospreyexpeditions.com/wp-content/uploads/2024/10/Venezuela-Los-Roques-Angel-Falls-Orinoco-Roraima-Caribbean-honeymoon-9.jpg'
     },
@@ -20,7 +20,7 @@ const products = [
         name: 'Palma de Mallorca, Spain',
         price: 249,
         stars: 4.3,
-        booked: 226,
+        reviews: 226,
         seller: 'aichitame Tours',
         image: 'https://www.posadaterrasanta.com/wp-content/uploads/2024/02/Post-45-Playa-Posada-Terra-Santa.jpg'
     },
@@ -29,7 +29,7 @@ const products = [
         name: 'Santa Marta, Colombia',
         price: 899,
         stars: 4.6,
-        booked: 138,
+        reviews: 138,
         seller: 'aichitame Tours',
         image: 'https://aem-all.accor.com/content/dam/all/hubs/americas/latam/generic-images/all-magazine/buceo-en-santa-marta-2024-1.jpg'
     },
@@ -37,7 +37,7 @@ const products = [
         name: 'Majagual, Nicaragua',
         price:899,
         stars: 4.3,
-        booked: 78,
+        reviews: 78,
         seller: 'aichitame Tours',
         image: 'https://images.squarespace-cdn.com/content/v1/59c96e9abce176caf5324bf5/1550263428954-XOQ8PIQR2YWREHC48T3I/Playa+Majagual+walks.jpg'
     },
@@ -45,7 +45,7 @@ const products = [
         name: 'Bolonia, Spain',
         price: 159,
         stars: 4.3,
-        booked: 658,
+        reviews: 658,
         seller: 'aichitame Tours',
         image: 'https://www.cadizturismo.com/storage/app/media/IMAGENES/PLAYAS/Bolonia/Playa%20de%20Bolonia%20-%20Tarifa.jpg'
     },
@@ -53,7 +53,7 @@ const products = [
         name: 'Vieques, Puerto Rico',
         price: 1799,
         stars: 4.5,
-        booked: 178,
+        reviews: 178,
         seller: 'aichitame Tours',
         image: 'https://cdn.prod.website-files.com/63232a8b70d6f033655c1d90/64387a2ceb8eab5f13a2162e_PR%20plus%20Visiting%20Vieques.jpg'
     },
@@ -61,14 +61,14 @@ const products = [
         name: 'Cayos Cochinos, Honduras',
         price: 1800,
         stars: 4.3,
-        booked: 125,
+        reviews: 125,
         seller: 'aichitame Tours',
         image: 'https://image-tc.galaxy.tf/wijpeg-437zil413ylbfgw8ynwkldj7v/cayos-cochinos-aguas-turquesa_standard.jpg?crop=103%2C0%2C643%2C482',
     },
     {
         name: 'Playa Larga, Cuba',
         price: 1399,
-        booked: 230,
+        reviews: 230,
         seller: 'aichitame Tours',
         image:'https://images.myguide-cdn.com/cuba/companies/long-beach/large/long-beach-634717.jpg'
     },
@@ -76,7 +76,7 @@ const products = [
         name: 'Ureka, Guinea Ecuatorial',
         price: 850,
         stars: 4.4,
-        booked: 189,
+        reviews: 189,
         seller: 'aichitame Tours',
         image: 'https://ahoraeg.com/wp-content/uploads/2025/03/Captura-de-pantalla-2025-03-04-005525.png'
     },
@@ -84,7 +84,7 @@ const products = [
         name: 'Los Gigantes, Tenerife, Spain',
         price: 399,
         stars: 4.8,
-        booked: 358,
+        reviews: 358,
         seller: 'aichitame Tours',
         image: 'https://www.barcelo.com/guia-turismo/wp-content/uploads/tenerife-gigantes.jpg'
     },
@@ -92,7 +92,7 @@ const products = [
         name: 'Punta Cana, Dominican Republic',
         price: 1199,
         stars: 4.3,
-        booked: 256,
+        reviews: 256,
         seller: 'aichitame Tours',
         image: 'https://www.viajandoporelmundomundial.com/wp-content/uploads/2022/03/playas-dominicana1.jpg'
     },
